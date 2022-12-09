@@ -3,9 +3,19 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+//require express-handlebars here
+const exphbs = require('express-handlebars')
+
+//setting template engine
+app.engine('handlebars', exphbs({ defaultLayout: 'main'}))
+app.set('view engine', 'handlebars')
+
+//setting static files
+app.use(express.static('public'))
+
 //route setting
 app.get('/', (req, res) => {
-  res.send('work!')
+  res.render('index')
 })
 
 //start and listen on the express server
