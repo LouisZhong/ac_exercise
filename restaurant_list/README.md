@@ -3,7 +3,7 @@
 彙整各式各類餐廳，包含餐廳類型、餐廳圖片簡覽、餐廳評比、詳細資料等
 
 <h3>專案畫面</h3>
-![image](https://imgur.com/a/GNJchen)
+![image](https://github.com/LouisZhong/ac_exercise/blob/main/restaurant_list/cover.PNG)
 
 <h3>環境建置與需求</h3>
 <ul>
