@@ -4,10 +4,17 @@
 
 <h3>環境建置與需求</h3>
 <ul>
-<li><a href="https://www.npmjs.com/package/express">Express</a></li>
+<li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio code</a></li>
+<li><a href="https://nodejs.org/en/" target="_blank">Node.js</a></li>
+<li><a href="https://www.npmjs.com/package/express" target="_blank">Express</a></li>
+<li><a href="https://www.npmjs.com/package/express-handlebars" target="_blank">Express-Handlebars</a></li>
 </ul>
 
 安裝與執行步驟 
+1.開啟終端機(Terminal) Clone本專案至本機電腦:
+    test
+
+
 
 網站功能
 <ul>
