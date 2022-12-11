@@ -1,0 +1,20 @@
+<!-- ./views/show.handlebars -->
+<div class="container py-5">
+  <div class="text-center">
+    <h1 class="mb-4">{{restaurant.name}}</h1>
+    <img class="rounded mb-4" src="{{restaurant.image}}" alt="Card image cap"
+      style="max-height: 300px;">
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+      <p class="text-secondary mb-1">
+        <strong>Rating:</strong>
+        {{restaurant.rating}}
+      </p>
+
+      <p>
+        {{restaurant.description}}
+      </p>
+    </div>
+  </div>
+</div>
