@@ -8,12 +8,13 @@
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto">
       <p class="text-secondary mb-1">
-        <strong>Rating:</strong>
-        {{restaurant.rating}}
-      </p>
-
-      <p>
-        {{restaurant.description}}
+        <ul>
+          <li>類別：{{restaurant.category}}</li>
+          <li>評分：{{restaurant.rating}}</li>
+          <li>電話：{{restaurant.phone}}</li>
+          <li>地址：{{restaurant.location}}</li>         
+          <li>描述：{{restaurant.description}}</li>
+        </ul>
       </p>
     </div>
   </div>
