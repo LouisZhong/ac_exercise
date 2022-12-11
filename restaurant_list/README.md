@@ -1,12 +1,17 @@
-餐廳清單website
+<h1>餐廳清單website</h1>
 使用node.js + express + handlebars搭設地方餐聽查詢平台
 彙整各式各類餐廳，包含餐廳類型、餐廳圖片簡覽、餐廳評比、詳細資料等
 
 <h3>環境建置與需求</h3>
+<ul>
+<li><a href="https://www.npmjs.com/package/express">Express</a></li>
+</ul>
 
 安裝與執行步驟 
 
 網站功能
 <ul>
-<li>快速查詢各式各類餐廳及評分的平台</li>
+<li>卡片式簡覽地方餐廳，包含餐廳名稱、外觀、評比</li>
+<li>可快速搜尋餐廳名字</li>
+<li>點選後，可瀏覽餐廳詳細資料</li>
 </ul>
